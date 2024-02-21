@@ -1,0 +1,39 @@
+/* header styles */
+
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #212529;
+    height: 250px;
+  }
+  
+  h1{
+    color: #FFFFFF;
+  }
+  
+  p{
+    color: #90928E;
+  }
+  
+  /* Home Page */
+  
+  .home {
+    display: flex;
+  }
+  
+  .productContainer {
+    display: flex;  
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  .products {
+    width: 30%;  
+    margin: 10px;
+  }
